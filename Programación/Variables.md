@@ -1,4 +1,3 @@
-Claro, aquí tienes una explicación detallada y simplificada sobre las variables y los tipos de datos en Java, manteniendo el estilo del documento que proporcionaste y con ejemplos sencillos para facilitar la comprensión.
 
 ### **Variables en Java**
 
@@ -193,4 +192,5 @@ public class EjemploTiposDeDatos {
         System.out.println("Valor char (inicial): " + inicial);
     }
 }
+
 ```
