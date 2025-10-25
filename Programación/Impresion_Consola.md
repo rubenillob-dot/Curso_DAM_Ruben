@@ -1,4 +1,3 @@
-¡Claro que sí! Aquí te explico `System.out.print` en Java de una manera súper sencilla y con ejemplos fáciles de entender. 
 
  ### ¿Qué es `System.out.print`? 
 
@@ -154,5 +153,6 @@
  Producto    Cantidad    Precio
  Manzanas    5           $2.50
  ``` 
+
 
  ¡Y eso es todo! Con estos ejemplos súper sencillos, ya tienes una buena idea de cómo funciona `System.out.print` y cómo puedes empezar a mostrar información en tus programas de Java.
