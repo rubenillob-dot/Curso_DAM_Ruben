@@ -1,4 +1,4 @@
-Claro, aquí tienes toda la información de la presentación, estructurada y separada entre la teoría y los pasos prácticos o comandos.
+
 
 ### Parte 1: Teoría sobre GNU/Linux
 
@@ -120,5 +120,6 @@ Si elegiste "Más opciones", verás la pantalla de gestión de particiones.
     *   **Nombre de su equipo:** El nombre que tendrá el ordenador en la red.
     *   **Elija un nombre de usuario:** Tu nombre de usuario para iniciar sesión.
     *   **Elija una contraseña:** La contraseña para tu usuario.
+
 
 Tras este último paso, la instalación comenzará a copiar los archivos. Una vez finalice, se te pedirá reiniciar el equipo.
