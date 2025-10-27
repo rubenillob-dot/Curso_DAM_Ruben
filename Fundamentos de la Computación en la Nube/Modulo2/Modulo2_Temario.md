@@ -59,6 +59,7 @@ Obtenga descuentos por volumen a medida que aumenta el uso.
 
 *   **Los precios por niveles para servicios como Amazon Simple Storage Service (Amazon S3), Amazon Elastic Block Store (Amazon EBS) o Amazon Elastic File System (Amazon EFS):** cuanto más use, menos pagará por GB.
 *   **Varios servicios de almacenamiento que proporcionan menores costos según las necesidades.**
+*   **Ahorros a medida que aumenta el uso.**
 
 Con AWS puede obtener descuentos según el volumen y ahorrar cantidades significativas a medida que incrementa el uso. Para servicios como Amazon Simple Storage Service (Amazon S3), los precios se encuentran escalonados, lo que significa que paga menos por GB cuando utiliza más. Además, la transferencia de datos de entrada siempre es gratuita. El uso de varios servicios de almacenamiento ofrece menores costos según sus necesidades. Como resultado, a medida que incrementen sus necesidades de uso de AWS, se beneficiará de las economías de escala que permiten incrementar la adopción y mantener los costos bajo control.
 
@@ -368,5 +369,6 @@ Además de comprender los costos asociados a los distintos planes de asistencia,
 *   **Alta:** las funciones importantes de la aplicación del cliente se han dañado o deteriorado.
 *   **Normal:** las funciones no críticas de la aplicación del cliente se comportan de manera anormal, o el cliente tiene una duda urgente sobre desarrollo.
 *   **Baja:** el cliente tiene una duda general sobre desarrollo o desea solicitar una función.
+
 
 Tenga en cuenta que no hay soporte de casos con el plan de Basic Support. Estos tiempos de respuesta deben tenerse en cuenta a la hora de determinar qué plan de soporte es mejor para su organización.
