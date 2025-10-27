@@ -1,4 +1,4 @@
-Claro, aquí tienes un resumen bien estructurado con toda la información de la presentación sobre la introducción a los sistemas informáticos.
+
 
 ### **Unidad 1: Introducción a los Sistemas Informáticos**
 
@@ -113,4 +113,5 @@ No es libre y su uso, redistribución o modificación están restringidos por un
 *Tipos de Licencias Propietarias:*
 *   **OEM:** Licencias preinstaladas en equipos nuevos.
 *   **Retail:** Venta al usuario final.
+
 *   **Por Volumen:** Venta a grandes clientes para un número elevado de usuarios.
