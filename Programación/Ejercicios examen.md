@@ -1,6 +1,4 @@
-¡Claro! Aquí tienes todos los ejercicios resueltos en un único bloque de código, formateado para que lo puedas copiar y pegar directamente en un archivo Markdown (`.md`).
 
----
 
 ```java
 import java.util.Scanner;
@@ -245,4 +243,5 @@ public class Ejercicio7Fibonacci {
         sc.close();
     }
 }
+
 ```
