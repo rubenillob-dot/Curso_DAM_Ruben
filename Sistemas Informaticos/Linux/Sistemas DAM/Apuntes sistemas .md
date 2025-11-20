@@ -1,8 +1,5 @@
 # Apuntes sistemas
 
-Clase: Sistemas Informáticos (https://www.notion.so/Sistemas-Inform-ticos-27f981b058b981569f34ea256ed796ed?pvs=21)
-Estado: En curso
-Tipo: Ampliación
 
 - **DATOS SEGUROS DE EXAMEN:** Según las anotaciones, estos tres valores caen seguro:
     - **SATA 3.0:** Su velocidad es de **600 MB/s** (6 Gbps).
