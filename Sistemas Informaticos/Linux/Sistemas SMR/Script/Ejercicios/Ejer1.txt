@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Verificamos que se haya proporcionado un argumento
+if [ $# -eq 0 ]; 
+then
+    echo "Error: Se requiere un argumento (nombre de archivo)"
+    exit 1
+fi
+
+# Verificamos que el archivo exista y sea legible
+if [ ! -f "$1" ]; 
+then
+    echo "Error: El archivo \"$1\" no existe o no es un archivo regular"
+    exit 1
+fi
+
+# Función para visualizar con número de líneas
+visualizar_con_numeros() {
+    cat -n "$1"
+}
+
+# Función para visualizar las últimas n líneas
+visualizar_ultimas_n_lineas() {
+    echo "Ingrese el número de líneas a mostrar:"
+    read n
+    tail -n "$n" "$1"
+}
+
+# Función para visualizar las primeras n líneas
+visualizar_primeras_n_lineas() {
+    echo "Ingrese el número de líneas a mostrar:"
+    read n
+    head -n "$n" "$1"
+}
+
+# Menú
+echo "Menú:"
+echo "1 - Visualizar con número de líneas"
+echo "2 - Visualizar últimas n líneas"
+echo "3 - Visualizar primeras n líneas"
+echo "Seleccione una opción:"
+read opcion
+
+# Ejecutar la opción seleccionada
+case $opcion in
+    1) visualizar con numeros "$1" 
+    ;;
+    2) visualizar ultimas n lineas "$1" 
+    ;;
+    3) visualizar primeras n lineas "$1" 
+    ;;
+    *) echo "Opción inválida. Saliendo." 
+    ;;
+esac
+
