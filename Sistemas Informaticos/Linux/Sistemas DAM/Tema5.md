@@ -1,6 +1,4 @@
-Aquí tienes una **Cheat Sheet (Hoja de Referencia)** completa basada en los documentos que has subido, organizada por categorías.
 
-He incluido los comandos mencionados en el texto, explicaciones claras y he añadido **"Opciones Extra"** que son muy comunes en el mundo real y complementan lo aprendido en tus apuntes.
 
 ---
 
@@ -90,4 +88,5 @@ En tus documentos aparece un ejercicio complejo con notas. Aquí la lógica:
 1.  **`sort -k3`**: Ordena usando la **columna 3** (la nota).
 2.  **`sort -r`**: Orden inverso (mayor a menor).
 3.  **`head -1`**: Se queda solo con la primera línea (la nota más alta).
+
 4.  **`cut -f3`**: Corta y se queda solo con el campo 3 (el número de la nota).
