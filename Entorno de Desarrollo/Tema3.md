@@ -1,11 +1,3 @@
-Aquí tienes la **Cheat Sheet Definitiva y Actualizada**.
-
-He realizado los siguientes cambios:
-1.  ❌ **Eliminado** la sección de IDEs.
-2.  ✅ **Mantenido** la teoría de pruebas y los ejercicios de Caja Negra anteriores.
-3.  🆕 **Añadido** una nueva sección ("Sección 4") con los ejercicios de **Grafos (Caja Blanca)** extraídos del nuevo PDF, incluyendo la explicación lógica de su resolución.
-
----
 
 # 📘 Cheat Sheet: Pruebas de Software (Caja Negra y Blanca) + JUnit 5
 
