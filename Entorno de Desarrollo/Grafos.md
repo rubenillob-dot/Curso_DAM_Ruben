@@ -1,6 +1,4 @@
-Claro que sí. Aquí tienes los **Grafos de Flujo de Control** representados en **ASCII Art vertical**, diseñados para que se visualice claramente el flujo de las decisiones (`if/else`) de arriba hacia abajo.
 
----
 
 ### 1. Grafo Vertical: `validarEdad` (Ejercicio 1)
 
