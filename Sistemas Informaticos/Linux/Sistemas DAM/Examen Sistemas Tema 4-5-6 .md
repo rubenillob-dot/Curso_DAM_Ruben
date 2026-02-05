@@ -1,8 +1,5 @@
 # Examen Sistemas Tema 4-5-6
 
-Clase: Sistemas Informáticos (https://www.notion.so/Sistemas-Inform-ticos-27f981b058b981569f34ea256ed796ed?pvs=21)
-Estado: En curso
-Tipo: Entrega
 
 # **TEMA 4**
 
