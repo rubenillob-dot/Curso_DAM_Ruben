@@ -1,8 +1,5 @@
 # Script de Linux
 
-Clase: Sistemas Informáticos (https://www.notion.so/Sistemas-Inform-ticos-27f981b058b981569f34ea256ed796ed?pvs=21)
-Estado: Completado
-Tipo: Ampliación
 
 ### 📖 Diccionario de Símbolos
 
