@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.formulario {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+input,
+textarea {
+    display: block;
+    margin: 10px 0;
+    width: 300px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#cv-resultado {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}

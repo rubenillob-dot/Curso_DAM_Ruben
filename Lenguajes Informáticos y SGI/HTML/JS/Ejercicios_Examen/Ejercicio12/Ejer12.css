@@ -1,0 +1,33 @@
+#contenedorPadre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    height: auto;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.contenedor {
+    width: auto;
+    height: auto;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.imagen {
+    width: 100px;
+}
+
+h2 {
+    text-decoration: solid;
+    color: red;
+}
+
+p {
+    color: green;
+    text-decoration: underline;
+}

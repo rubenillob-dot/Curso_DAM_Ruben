@@ -1,0 +1,71 @@
+#Titulo {
+    color: tomato;
+}
+/* Es asignar a todas las clases que sean de p que tengan la clase de texto */
+p.texto {
+    color: blue;
+}
+
+p.especial {
+    color: green;
+}
+
+/*Los de arriba dependen del orden que hagamos el codigo se aplica a uno o a otro*/
+
+
+/* Aqui solo estamos seleccionando todas las etiquetas de p que se encuentran dentro de un div*/
+div p {
+    color: aquamarine;
+}
+
+div h2{
+    color: red;
+}
+/*Selector universal*/
+* {
+    /*Si no esta definido en otras etiquetas si lo aplica*/
+    font-size: 15px;
+    color: black;
+}
+/* Las etiqueas de class se ponen en css con un .*/
+/* Las etiquetas de id se ponen con un # */
+
+#fondo{
+    border-style: solid ;
+    border-color: burlywood;
+    border-radius: 5px;
+    border-width: 2rem;
+    background-color: aquamarine ;
+}
+
+.margen {
+    background-color: chocolate;
+    /* Arriba, derecha, abajo, izquierda*/
+    margin: 15px 20px 25px 30px;
+    /* Arriba, derecha, abajo, izquierda*/ 
+    /* Padding: Espacios dentro del elemnto*/    
+    padding: 30px 25px 20px 15px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px; /*ancho*/
+    overflow: scroll; /*Son barras laterales*/
+    outline: 15px solid color red;
+}
+
+#centrado {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;/*Subrrayado*/
+    text-decoration: line-through; /*tachado*/
+    text-decoration: overline; /*Por arriba*/
+}
+
+span{
+    display: block;/* Lo que hace es meter un salto de linea*/
+
+}
+
+.inline {
+    display: inline; /* Pone los divs en una sola linea*/
+    
+}

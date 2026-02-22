@@ -1,0 +1,8 @@
+ body {
+     background-color: white;
+ }
+
+ .cambioColor {
+     background-color: black;
+     color: white;
+ }
