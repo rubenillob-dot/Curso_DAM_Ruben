@@ -1,9 +1,5 @@
 # Redes informáticos
 
-Clase: Sistemas Informáticos (https://www.notion.so/Sistemas-Inform-ticos-27f981b058b981569f34ea256ed796ed?pvs=21)
-Estado: Sin empezar
-Tipo: Ampliación
-
 # 🌐 Clasificación de las Redes Informáticas
 
 Una red no es más que un grupo de ordenadores conectados para compartir cosas (archivos, impresoras, internet).
