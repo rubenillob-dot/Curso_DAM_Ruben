@@ -1,8 +1,6 @@
 # Base Datos Tema 4
 
-Clase: Bases de Datos  (https://www.notion.so/Bases-de-Datos-27f981b058b981bf8ebfead9b305af80?pvs=21)
-Estado: En curso
-Tipo: Entrega
+
 
 # 📘 Guía de Apuntes : Realización de Consultas SQL
 
