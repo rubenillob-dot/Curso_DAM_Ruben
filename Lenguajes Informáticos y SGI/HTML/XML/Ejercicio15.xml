@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+    <!ELEMENT futbol ((jugador|equipo)*)>
+    <!ELEMENT jugador EMPTY>
+    <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+    <!ATTLIST jugador codigo ID #REQUIRED>
+    <!ELEMENT equipo EMPTY>
+    <!ATTLIST equipo nombre CDATA #REQUIRED>
+    <!ATTLIST equipo jugador IDREFS #IMPLIED>
+]>
+<futbol>
+    <jugador nombre="Cristiano Ronaldo" codigo="CR7" />
+    <jugador nombre="Lionel Messi" codigo="LM10" />
+    <jugador nombre="Neymar Jr" codigo="NJ11" />
+    <jugador nombre="Kylian Mbappé" codigo="KM7" />
+    <equipo nombre="Equipo A" jugador="CR7 LM10" />
+    <equipo nombre="Equipo B" jugador="NJ11 KM7" />
+</futbol>
