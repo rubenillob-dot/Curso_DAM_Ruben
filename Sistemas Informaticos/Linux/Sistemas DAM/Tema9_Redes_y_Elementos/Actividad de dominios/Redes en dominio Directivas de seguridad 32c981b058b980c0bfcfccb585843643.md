@@ -1,6 +1,6 @@
 # Redes en dominio. Directivas de seguridad
 
-Clase: Sistemas Informáticos (https://www.notion.so/Sistemas-Inform-ticos-27f981b058b981569f34ea256ed796ed?pvs=21)
+Clase: Sistemas Informáticos
 Estado: Completado
 Tipo: Entrega
 Fecha de Entrega: 26 de marzo de 2026
