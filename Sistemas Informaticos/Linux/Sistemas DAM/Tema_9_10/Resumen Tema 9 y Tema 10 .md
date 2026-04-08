@@ -1,9 +1,5 @@
 # Resumen Tema 9 y Tema 10
 
-Clase: Sistemas Informáticos (https://www.notion.so/Sistemas-Inform-ticos-27f981b058b981569f34ea256ed796ed?pvs=21)
-Estado: En curso
-Tipo: Entrega
-Fecha de Entrega: 16 de abril de 2026
 
 # Resumen de Direccionamiento IPv4
 
