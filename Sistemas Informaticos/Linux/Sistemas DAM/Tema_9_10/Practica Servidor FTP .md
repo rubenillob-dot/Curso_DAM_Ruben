@@ -1,9 +1,6 @@
 # Practica Servidor FTP
 
-Clase: Sistemas Informáticos (https://www.notion.so/Sistemas-Inform-ticos-27f981b058b981569f34ea256ed796ed?pvs=21)
-Estado: Completado
-Tipo: Entrega
-Fecha de Entrega: 9 de abril de 2026
+
 
 ### Fase 0: Configuración de Red (En ambas máquinas)
 
