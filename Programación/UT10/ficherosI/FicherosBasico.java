@@ -19,7 +19,7 @@ public class FicherosBasico {
 }
 
 private static void crearDir(){
-    File d = new File("NUEVODIR"); //directorio que creo a partir del actual
+   File d = new File("NUEVODIR"); //directorio que creo a partir del actual
    File f1 = new File(d,"FICHERO1.TXT");
    File f2 = new File(d,"FICHERO2.TXT");
    
