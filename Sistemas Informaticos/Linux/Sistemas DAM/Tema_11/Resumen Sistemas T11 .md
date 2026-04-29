@@ -1,8 +1,6 @@
 # Resumen Sistemas T11
 
-Clase: Sistemas Informáticos (https://www.notion.so/Sistemas-Inform-ticos-27f981b058b981569f34ea256ed796ed?pvs=21)
-Estado: En curso
-Tipo: Entrega
+
 
 # 1. Servidor Samba (Configuración por Terminal)
 
