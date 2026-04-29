@@ -1,10 +1,5 @@
 # Apuntes Base Datos
 
-Clase: Bases de Datos  (https://www.notion.so/Bases-de-Datos-27f981b058b981bf8ebfead9b305af80?pvs=21)
-Estado: En curso
-Tipo: Ampliación
-Fecha de Entrega: 5 de mayo de 2026
-
 ---
 
 ### 1. Variables y Estructura de Bloque
