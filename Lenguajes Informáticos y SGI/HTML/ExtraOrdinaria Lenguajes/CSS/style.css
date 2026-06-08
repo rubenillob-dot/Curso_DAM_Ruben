@@ -1,0 +1,166 @@
+#titulo {
+    color: tomato;
+}
+
+/* A todas las clases del parrafo que tengan texto como clase que aplique el estilo */
+p.texto {
+    color: blue;
+}
+
+/*  Dependen del orden en el cual apliquemos el css , la ultima es la que vale*/
+p.especial {
+    color: green;
+}
+
+/* En todas las etiquetas de div que tengan elementos de parrafo como hijas.. que se les aplique el estilo*/
+div p {
+    color: aquamarine
+}
+
+div h2, h3{
+    color: brown;
+}
+
+/* Si quiero selecionar todo lo hago con un * pero si alguien tiene una propiedad ya hecha anteriormente no va a funcionar */
+* {
+    font-size: 24px;
+}
+
+.color {
+    color: red;
+    /* border: 5px black dotted ; dotted , dashed, double, groove*/
+}
+
+.bordes {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+#fondo {
+    background-color: red;
+    background-image: url('imagen.png');
+    background-size: cover;
+    height: 100px;
+}
+
+.margen {
+    background-color:  green;
+    margin: 15px 20px 25px 30px; /*Arriba, derecha, abajo e izquierda en ese orden */
+    padding: 30px 25px 20px 15px; /* Espacio dentro del elemento*/
+    border: solid 3px black ;
+    height: 10px; /*alto*/
+    width: 500px; /* Ancho*/
+    /* overflow: scroll; En caso de que no entre dentro de los margenes añade una barra de deslizar*/
+    outline: 1px solid red; /*Es un borde fuera del margen*/
+}
+
+.text {
+    text-align: center;
+    /*text-align: justify; le añade un espacio entre medias de las palabras*/
+    text-decoration: overline; /*Esto es decoracion del texto*/
+    text-shadow: 3px 5px 5px blue; /*Es la sombra del texto*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Cuando el link no ha sido visitado*/
+a:link {
+    color: blueviolet;
+    text-decoration: none;/*Esto es para que no tenga el subrrayado*/
+}
+/*Una vez visito el link*/
+a:visited {
+    color: grey;
+}
+/*Es cuando paso por encima*/
+a:hover {
+    color: yellow;
+}
+/*Es cuando pincho el active*/
+a:active {
+    color: red;
+}
+
+li {
+    background-color: cyan;
+    list-style-type: none; /* Para quitar los puntos*/
+    padding-left: 0; /*Alinearlo todo*/
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Para juntar celdas*/
+}
+
+th,td {
+    border: solid 1px #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer; /*Cambiar el raton*/
+}
+
+tr:nth-child(even){ /*Even nos permite elegir las opciones par de los hijos de th*/
+    background-color: #eee ;
+}
+
+span {
+    display: block; /*Es para hacer un salto de linea*/
+    max-width: 300px; /*El ancho maximo es ese y puede ser menos y se hace mas pequeña la pagina*/
+    background-color: red;
+}
+
+.inline {
+    display: inline; /* Para poner uno a lado del otro*/
+}
+
+#posicion {
+    position: relative;
+    left: 50px;
+}
+
+.left {
+    float: left; /*Los va a posicionar a la izquierda de un elemento*/
+    width: 200px;
+    height: 200px;
+}
+
+.rigth {
+    float: right; /*Los va a posicionar a la derecha de un elemento*/
+}
+
+.container {
+    height: 200px;
+}
+
+.container1 {
+    height: 200px;
+    
+}
+
+.column {
+    margin: 0 ;
+    padding: 10px px;
+    width: 33.3% ;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 75px;
+    background-color: blueviolet;
+}
+
+.center { 
+    width: 200px;
+    margin: 0 auto; /*El elemento se centra no le texto*/
+    background-color: aqua;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- Doctype es de html5-->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> Hola beatas </td>
+                <td> Gratis </td>
+            </tr>
+            <tr>
+                <td> Chanchito feliz </td>
+                <td> 20,90 </td>
+            </tr>
+            <tr>
+                <td> Chanchito feliz muy feliz </td>
+                <td> 220,90 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td> Total: 250,80</td>
+        </tfoot>
+    </table>
+
+
+    <!-- Lista no ordenada-->
+    <ul>
+        <li>Elemento uno</li>
+        <li>Elemento dos</li>
+        <li>Elemento tres</li>
+        <li>Elemento cuatro</li>
+    </ul>
+    <!-- Lista ordenada-->
+
+    <ol>
+        <li>Elemento uno</li>
+        <li>Elemento dos</li>
+        <li>Elemento tres</li>
+        <li>Elemento cuatro</li>
+        <li>
+            <ol>
+                <li style="list-style: lower-alpha;">SubElementos</li>
+                <li style="list-style: lower-alpha;">SubElementos</li>
+                <li style="list-style: lower-alpha;">SubElementos</li>
+                <li style="list-style: lower-alpha;">SubElementos</li>
+            </ol>
+        </li>
+    </ol>
+    <!-- Con value puedo indicar por cuando quiero que empiece-->
+    <ol>
+        <li value="50">Elemento uno</li>
+        <li>Elemento dos</li>
+        <li>Elemento tres</li>
+        <li>Elemento cuatro</li>
+    </ol>
+
+
+    <!-- Get sirve para enviar los datos del formulario-->
+    <!-- Post sirve para enviar los datos del formulario mas segura-->
+    <form action="/formulario" method="post">
+
+        <!-- El for de label y el id de input deben ser iguales por que es lo que empareja uno con otro-->
+        <label for="nombre">Nombre</label>
+        <!-- La propiedad name es como el identificador del valor que introduzcamos dentro del input (clave-valor)-->
+        <input type="text" name="" id="nombre" placeholder="Introduce tu nombre aqui..">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Chanchito feliz">
+        <br>
+        <label for="apellido2">Apellido2</label>
+        <!-- La propiedad value asigna un valor por defecto en la casilla de texto-->
+        <input type="text" name="apellido2" id="apellido2" value="Es una muestra">
+        <br>
+        <label for="comentario">Comentario</label>
+        <!-- Le podemos poner la propiedad de rows para hacer la altura del textarea-->
+        <!-- Le podemos poner la propiedad de cold para hacer la anchura del textarea-->
+        <textarea name="comentario" id="comentario"></textarea>
+        <br>
+
+        <br>
+        <button type="submit">Enviar</button>
+        <br>
+        <button type="reset">resetear</button>
+        <br>
+        <button type="button">boton normal</button>
+
+
+    </form>
+
+
+
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercero heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chanchito feliz </h6>
+
+    <p>Chanchito feliz esta muy feliz.</p>
+    <p>Chanchit triste esta muy triste.</p>
+    <h2>Chanchito felipe</h2>
+    <p>Texto un poco mas</p>
+
+    <p> Este texto es <span style="color: red;">mucho mas largo </span>
+        y es para mostrar <br>
+        la etiqueta de span</p>
+
+    <a href="https://www.google.es"> Ir a google</a>
+    <br>
+    <a target="_blank" href="https://www.google.es"> Ir a google en una nueva pestaña</a>
+    <br>
+    <!-- width= ancho-->
+    <!-- heigth= alto-->
+    <img src="img/imagen.png" alt="Es la info que no aparece" width="200">
+
+
+
+</body>
+
+</html>
